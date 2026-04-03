@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-50: #fff9db;
+  --color-gold-100: #fff3bf;
+  --color-gold-200: #ffec99;
+  --color-gold-300: #ffe066;
+  --color-gold-400: #ffd43b;
+  --color-gold-500: #fcc419;
+  --color-gold-600: #fab005;
+  --color-gold-700: #f59f00;
+  --color-gold-800: #f08c00;
+  --color-gold-900: #e67700;
+  
+  --color-primary: #000000;
+  --color-secondary: #D4AF37; /* Gold color */
+  --color-accent: #FFD700; /* Lighter gold */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-black text-white;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .gold-text {
+    @apply bg-gradient-to-r from-gold-400 via-gold-200 to-gold-600 bg-clip-text text-transparent;
+  }
+  .gold-border {
+    @apply border border-gold-500/30;
+  }
+  .gold-glow {
+    @apply shadow-[0_0_15px_rgba(252,196,25,0.3)];
+  }
+  .section-padding {
+    @apply py-20 px-4 md:px-8 lg:px-16;
+  }
+}
