@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
 
             <p className="text-gray-400 text-center md:text-left font-light leading-relaxed">
-              Crafting delicious and affordable cakes since 2017. Your trusted bakery for every celebration.
+              Affordable cakes, unforgettable taste.
             </p>
             {/* Instagram CTA */}
             <div className="flex items-center gap-3">

@@ -59,7 +59,7 @@ const Products = () => {
     },
     {
       name: '💍 Wedding Cakes',
-      category: 'Luxury Cakes',
+      category: 'Wedding Cakes',
       description: 'Elegant multi-layer cakes crafted for weddings and grand celebrations.',
       price: '₹250 onwards',
       image: 'https://res.cloudinary.com/dunxhltm6/image/upload/v1775212861/luxury_cake_giwwcv.jpg'

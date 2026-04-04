@@ -49,7 +49,7 @@ const Contact = () => {
 
               {/* Location */}
               <a
-                href="https://www.google.com/maps/place/Gupta+Bakery/@25.4542547,78.5388782,18z"
+                href="https://maps.app.goo.gl/94Q7YddcwbtdZEiz9"
                 target="_blank"
                 className="flex items-start gap-6 group cursor-pointer"
               >

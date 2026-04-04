@@ -41,8 +41,7 @@ const AboutUs = () => {
             <p className="text-gray-400 text-lg md:text-xl font-light mb-12 leading-relaxed">
               Our philosophy is simple: use the finest ingredients, maintain high hygiene standards,
               and never compromise on freshness. We offer delicious, fresh cakes at affordable prices,
-              including custom designs for every occasion. Choose from a variety of sizes, including
-              single, double, and triple-layer cakes.
+              including custom designs for every occasion.
             </p>
 
             {/* Features */}
@@ -87,18 +86,18 @@ const AboutUs = () => {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            {/* Glow */}
-            <div className="absolute inset-0 bg-gold-600/10 rounded-[60px] blur-[80px] -z-10 animate-pulse"></div>
+            {/* Soft Glow (no black shade) */}
+            <div className="absolute inset-0 bg-gold-600/10 rounded-[60px] blur-[80px] -z-10"></div>
 
             <div className="relative z-10 p-8">
               <div className="aspect-[4/5] rounded-[60px] overflow-hidden gold-border gold-glow">
 
-                {/* ✅ FINAL FIXED IMAGE */}
+                {/* ✅ FIXED IMAGE */}
                 <img
-                  src="https://res.cloudinary.com/dunxhltm6/image/upload/v1775216800/Bakery_smiles_and_eggless_treats_p6nxwg.png"
+                  src="https://res.cloudinary.com/dunxhltm6/image/upload/v1775274498/Bakery_smiles_and_eggless_treats_bx6z6w.png"
                   alt="Gupta Bakery"
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                  style={{ objectPosition: 'center -60px' }}
+                  className="w-full h-full object-cover transition-all duration-700"
+                  style={{ objectPosition: 'center top' }} // 🔥 FIXED POSITION
                 />
 
               </div>
@@ -107,7 +106,7 @@ const AboutUs = () => {
               <motion.div
                 animate={{ y: [0, -20, 0] }}
                 transition={{ duration: 4, repeat: Infinity }}
-                className="absolute -bottom-10 -left-10 bg-black/80 backdrop-blur-xl border border-gold-500/30 p-8 rounded-3xl shadow-2xl gold-glow hidden md:block"
+                className="absolute -bottom-10 -left-10 bg-black/60 backdrop-blur-xl border border-gold-500/30 p-8 rounded-3xl shadow-2xl gold-glow hidden md:block"
               >
                 <div className="text-5xl font-black gold-text mb-2">8+</div>
                 <div className="text-gray-400 font-bold uppercase tracking-widest text-xs">
@@ -118,7 +117,7 @@ const AboutUs = () => {
               <motion.div
                 animate={{ y: [0, 20, 0] }}
                 transition={{ duration: 5, repeat: Infinity }}
-                className="absolute -top-10 -right-10 bg-black/80 backdrop-blur-xl border border-gold-500/30 p-8 rounded-3xl shadow-2xl gold-glow hidden md:block"
+                className="absolute -top-10 -right-10 bg-black/60 backdrop-blur-xl border border-gold-500/30 p-8 rounded-3xl shadow-2xl gold-glow hidden md:block"
               >
                 <div className="text-5xl font-black gold-text mb-2">2k+</div>
                 <div className="text-gray-400 font-bold uppercase tracking-widest text-xs">
