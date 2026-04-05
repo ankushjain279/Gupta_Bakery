@@ -70,7 +70,7 @@ const Order = () => {
             <motion.a
               whileHover={{ scale: 1.05, y: -5 }}
               whileTap={{ scale: 0.95 }}
-              href="https://zomato.onelink.me/xqzv/872r0nhj"
+              href="https://www.zomato.com/jhansi/gupta-bakery-sipri-bazaar"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-64 flex items-center justify-center gap-3 bg-[#E23744] text-white px-8 py-5 rounded-2xl font-black text-xl shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer"
